@@ -1,23 +1,39 @@
-# 🗣️ Text-to-SQL AI Assistant
+# Text2SQL-LLM-Generator
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red.svg)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-A Natural Language to SQL query generator that takes conversational English questions and converts them to precise SQL queries using LLMs and few-shot prompting.
+## Description
+This project focuses on text to sql. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
-## Features
-- 💬 Natural language interface for database querying
-- 🔍 Automatic schema detection and parsing
-- 📊 Real-time execution and visualization of results
-- 🎯 Few-shot prompting for high accuracy
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
 
-## Architecture
-User Input -> Streamlit UI -> Prompt Construction (w/ Schema) -> LLM -> SQL Query -> DB Executor -> Results.
+## Tech Stack
+- LLM\n- SQLAlchemy\n- SQLite\n- Streamlit
 
 ## Quick Start
 ```bash
+git clone https://github.com/iMuneebK/Text2SQL-LLM-Generator.git
+cd Text2SQL-LLM-Generator
 pip install -r requirements.txt
-python sample_data.py
-streamlit run app.py
+python main.py
 ```
+
+## Project Structure
+```
+Text2SQL-LLM-Generator/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
